@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+:root{
+    --cor1: #8BACD9;
+    --cor2: #00FFF8;
+    --cor3: #0d192c;
+    --cor4: #15263f;
+    --fonte-padrao: 'Outfit', sans-serif; 
+}
+body{
+    background-color: var(--cor3);
+}
+.box{
+    background-color: #15263f;
+    margin: auto;
+    margin-top: 20px;
+    width: 360px;
+    height: 580px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.imagem-principal{
+    height: 320px;
+    width: 320px;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+div > .imagem-principal:hover{
+    height: 330px;
+    width: 330px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+ }
+h1{
+    margin: 20px;
+    padding-top: 20px;
+    color: white;
+    font: Outfit;
+    font-size: 22px;
+
+}
+p{
+    color: #8bacd9;
+    margin: 20px;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+}
+.paragrafo-diamante{
+    color: var(--cor2);
+    display: inline;
+    font-size: 16px;
+}
+.paragrafo-relogio{
+    display: inline;
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.final-p{
+    font-size: 16px;
+    border-top: 1px solid #8bacd956;
+    padding-top: 10px;
+
+}
+.final-p > img {
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+a{
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+a:hover{
+    color: var(--cor2); 
+}
